@@ -26,7 +26,7 @@ export function ShowSolBalance() {
 
         getBalance();
 
-        // Update balance every 10 seconds
+
         intervalId = setInterval(getBalance, 1000);
 
         return () => {
